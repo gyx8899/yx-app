@@ -31,7 +31,7 @@ const useStyles = makeStyles({
   },
 });
 
-export default function PageChange(props) {
+export default function PageChange({path}) {
   const classes = useStyles();
   return (
     <div>
@@ -40,7 +40,7 @@ export default function PageChange(props) {
           <CircularProgress className={classes.progress} />
         </div>
         <h4 className={classes.title}>
-          Loading page contents for: {props.path}
+          Loading page contents for: {path}
         </h4>
       </div>
     </div>

@@ -8,29 +8,29 @@ import Camera from '@material-ui/icons/Camera';
 import Palette from '@material-ui/icons/Palette';
 import Favorite from '@material-ui/icons/Favorite';
 // core components
-import Header from '../app/components/Header/Header.js';
-import Footer from '../app/components/Footer/Footer.js';
-import Button from '../app/components/CustomButtons/Button.js';
-import GridContainer from '../app/components/Grid/GridContainer.js';
-import GridItem from '../app/components/Grid/GridItem.js';
-import HeaderLinks from '../app/components/Header/HeaderLinks.js';
-import NavPills from '../app/components/NavPills/NavPills.js';
-import Parallax from '../app/components/Parallax/Parallax.js';
+import Header from 'app/components/Header/Header.js';
+import Footer from 'app/components/Footer/Footer.js';
+import Button from 'app/components/CustomButtons/Button.js';
+import GridContainer from 'app/components/Grid/GridContainer.js';
+import GridItem from 'app/components/Grid/GridItem.js';
+import HeaderLinks from 'app/components/Header/HeaderLinks.js';
+import NavPills from 'app/components/NavPills/NavPills.js';
+import Parallax from 'app/components/Parallax/Parallax.js';
 
-import profile from '../app/assets/img/faces/christian.jpg';
+import profile from 'app/assets/img/faces/christian.jpg';
 
-import studio1 from '../app/assets/img/examples/studio-1.jpg';
-import studio2 from '../app/assets/img/examples/studio-2.jpg';
-import studio3 from '../app/assets/img/examples/studio-3.jpg';
-import studio4 from '../app/assets/img/examples/studio-4.jpg';
-import studio5 from '../app/assets/img/examples/studio-5.jpg';
-import work1 from '../app/assets/img/examples/olu-eletu.jpg';
-import work2 from '../app/assets/img/examples/clem-onojeghuo.jpg';
-import work3 from '../app/assets/img/examples/cynthia-del-rio.jpg';
-import work4 from '../app/assets/img/examples/mariya-georgieva.jpg';
-import work5 from '../app/assets/img/examples/clem-onojegaw.jpg';
+import studio1 from 'app/assets/img/examples/studio-1.jpg';
+import studio2 from 'app/assets/img/examples/studio-2.jpg';
+import studio3 from 'app/assets/img/examples/studio-3.jpg';
+import studio4 from 'app/assets/img/examples/studio-4.jpg';
+import studio5 from 'app/assets/img/examples/studio-5.jpg';
+import work1 from 'app/assets/img/examples/olu-eletu.jpg';
+import work2 from 'app/assets/img/examples/clem-onojeghuo.jpg';
+import work3 from 'app/assets/img/examples/cynthia-del-rio.jpg';
+import work4 from 'app/assets/img/examples/mariya-georgieva.jpg';
+import work5 from 'app/assets/img/examples/clem-onojegaw.jpg';
 
-import styles from '../app/assets/jss/nextjs-material-kit/pages/profilePage.js';
+import styles from 'app/assets/jss/nextjs-material-kit/pages/profilePage.js';
 
 const useStyles = makeStyles(styles);
 
@@ -56,7 +56,7 @@ export default function ProfilePage(props) {
         }}
         {...rest}
       />
-      <Parallax small filter image={require('../app/assets/img/profile-bg.jpg')} />
+      <Parallax small filter image={require('app/assets/img/profile-bg.jpg')} />
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div>
           <div className={classes.container}>

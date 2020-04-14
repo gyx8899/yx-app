@@ -7,21 +7,21 @@ import Icon from '@material-ui/core/Icon';
 import Email from '@material-ui/icons/Email';
 import People from '@material-ui/icons/People';
 // core components
-import Header from '../app/components/Header/Header.js';
-import HeaderLinks from '../app/components/Header/HeaderLinks.js';
-import Footer from '../app/components/Footer/Footer.js';
-import GridContainer from '../app/components/Grid/GridContainer.js';
-import GridItem from '../app/components/Grid/GridItem.js';
-import Button from '../app/components/CustomButtons/Button.js';
-import Card from '../app/components/Card/Card.js';
-import CardBody from '../app/components/Card/CardBody.js';
-import CardHeader from '../app/components/Card/CardHeader.js';
-import CardFooter from '../app/components/Card/CardFooter.js';
-import CustomInput from '../app/components/CustomInput/CustomInput.js';
+import Header from 'app/components/Header/Header.js';
+import HeaderLinks from 'app/components/Header/HeaderLinks.js';
+import Footer from 'app/components/Footer/Footer.js';
+import GridContainer from 'app/components/Grid/GridContainer.js';
+import GridItem from 'app/components/Grid/GridItem.js';
+import Button from 'app/components/CustomButtons/Button.js';
+import Card from 'app/components/Card/Card.js';
+import CardBody from 'app/components/Card/CardBody.js';
+import CardHeader from 'app/components/Card/CardHeader.js';
+import CardFooter from 'app/components/Card/CardFooter.js';
+import CustomInput from 'app/components/CustomInput/CustomInput.js';
 
-import styles from '../app/assets/jss/nextjs-material-kit/pages/loginPage.js';
+import styles from 'app/assets/jss/nextjs-material-kit/pages/loginPage.js';
 
-import image from '../app/assets/img/bg7.jpg';
+import image from 'app/assets/img/bg7.jpg';
 
 const useStyles = makeStyles(styles);
 

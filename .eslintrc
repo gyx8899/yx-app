@@ -71,5 +71,15 @@
     "class-methods-use-this": 0,
     "linebreak-style": 0,
     "jsx-a11y/click-events-have-key-events": 0
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"],
+        "alias": {
+          "app": "./app"
+        }
+      }
+    }
   }
 }
