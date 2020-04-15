@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import App from 'next/app';
 import Head from 'next/head';
 import Router from 'next/router';
+import {site, author} from '../site/config';
 
 import PageChange from '../app/components/PageChange/PageChange.js';
 
@@ -25,6 +26,10 @@ Router.events.on('routeChangeError', () => {
   document.body.classList.remove('body-page-transition');
 });
 
+const {
+title, description, keywords, themeColor, gaTrackingId,
+} = site.header;
+
 export default class MyApp extends App {
   componentDidMount() {
 
@@ -46,7 +51,27 @@ export default class MyApp extends App {
     return (
       <>
         <Head>
-          <title>NextJS Material Kit by Creative Tim</title>
+          <title>{title}</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta charSet="utf-8" />
+          <meta name="description" content={description} />
+          <meta name="keywords" content={keywords} />
+          <meta name="author" content={author.name} />
+          <link rel="shortcut icon" href="/public/images/favicon.ico" type="image/ico" />
+          <link rel="apple-touch-icon" sizes="180x180" href="/public/images/apple-icon-180x180.png" />
+          <link rel="icon" type="image/png" sizes="96x96" href="/public/images/favicon-96x96.png" />
+          <link rel="manifest" href="/public/manifest.json" />
+          <meta name="msapplication-TileColor" content={themeColor} />
+          <meta name="msapplication-TileImage" content="/public/images/ms-icon-144x144.png" />
+          <meta name="msapplication-config" content="/public/browserconfig.xml" />
+          {/* {<!-- Status Bar Style -->} */}
+          {/* {<!-- Safari: black, black-translucent -->} */}
+          <meta name="apple-mobile-web-app-status-bar-style" content="yes" />
+          {/* {<!-- Chrome, Firefox OS and Opera -->} */}
+          <meta name="theme-color" content={themeColor} />
+          {
+            gaTrackingId && <script async src={`https://www.googletagmanager.com/gtag/js?id=${gaTrackingId}`} />
+          }
         </Head>
         <Component {...pageProps} />
       </>

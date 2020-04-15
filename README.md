@@ -1,6 +1,14 @@
 # YX-App
 A demo template app with React, NextJS and Material UI.
 
+## Template
+
+### Custom configuration
+- site/config/site
+- public/manifest.json
+- public/browserconfig.xml
+- public/images, generate icons from (favicon-generator)[https://www.favicon-generator.org/]
+
 ## Publish steps
 
 - Login: add user with your `Username`, `Password`, `Email`
