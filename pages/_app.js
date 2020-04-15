@@ -57,13 +57,13 @@ export default class MyApp extends App {
           <meta name="description" content={description} />
           <meta name="keywords" content={keywords} />
           <meta name="author" content={author.name} />
-          <link rel="shortcut icon" href="/public/images/favicon.ico" type="image/ico" />
-          <link rel="apple-touch-icon" sizes="180x180" href="/public/images/apple-icon-180x180.png" />
-          <link rel="icon" type="image/png" sizes="96x96" href="/public/images/favicon-96x96.png" />
-          <link rel="manifest" href="/public/manifest.json" />
+          <link rel="shortcut icon" href="/images/favicon.ico" type="image/ico" />
+          <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-icon-180x180.png" />
+          <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon-96x96.png" />
+          <link rel="manifest" href="/manifest.json" />
           <meta name="msapplication-TileColor" content={themeColor} />
-          <meta name="msapplication-TileImage" content="/public/images/ms-icon-144x144.png" />
-          <meta name="msapplication-config" content="/public/browserconfig.xml" />
+          <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png" />
+          <meta name="msapplication-config" content="/browserconfig.xml" />
           {/* {<!-- Status Bar Style -->} */}
           {/* {<!-- Safari: black, black-translucent -->} */}
           <meta name="apple-mobile-web-app-status-bar-style" content="yes" />
