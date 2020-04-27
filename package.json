@@ -81,9 +81,11 @@
     "react": "latest",
     "react-datetime": "2.16.3",
     "react-dom": "latest",
+    "react-redux": "^7.2.0",
     "react-slick": "0.25.2",
     "react-swipeable-views": "0.13.3",
     "recompose": "^0.30.0",
+    "redux": "^4.0.5",
     "remark-capitalize": "^1.1.0",
     "styled-components": "4.3.2",
     "webpack": "4.39.3"
