@@ -13,7 +13,8 @@
     "test:ci": "jest --ci",
     "lint": "eslint src/**/*.js",
     "rollup": "rollup -c",
-    "prepack": "npm run lint && npm run test:ci && npm run rollup"
+    "prepack": "npm run lint && npm run test:ci && npm run rollup",
+    "git-push": "cd ../yx-env && git-push.sh yx-app"
   },
   "repository": {
     "type": "git",
